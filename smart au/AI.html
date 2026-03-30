@@ -231,7 +231,7 @@
     function updateGreetingBySelection() {
         const m = document.getElementById('majorSelector').value;
         const name = (localStorage.getItem('studentName') || "شهد").split(' ')[0];
-        document.getElementById('chatBox').innerHTML = `<div class="message ai-msg">مرحباً ${getTitle(m)} ${name}. أنا مساعدكِ الأكاديمي في ${m}، كيف يمكنني خدمتكِ اليوم؟</div>`;
+        document.getElementById('chatBox').innerHTML = `<div class="message ai-msg">مرحباً ${getTitle(m)} ${name}. أنا مساعدكِ الأكاديمي في ${m}، يمكنني خدمتكِ اليوم؟</div>`;
         currentHistory = [];
     }
 
